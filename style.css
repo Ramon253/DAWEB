@@ -44,7 +44,7 @@ nav .links a{
     color: whitesmoke;
 }
 /*Contenido*/
-main{
+header main{
     display: flex;
     flex-flow: row wrap;
     place-content: center;
@@ -55,22 +55,22 @@ main{
     gap: 30px;
 }
 
-main .logos{
+header main .logos{
     display: flex;
     flex-flow: column wrap;
 }
-main .logos img{
+header main .logos img{
     width: 250px;
     max-height: 300px;
 }
-main .text{
+header main .text{
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     max-width: 40%;
     gap: 10%;
 }
-main .text h2{
+header main .text h2{
     font-size: 35px;
 }
 
